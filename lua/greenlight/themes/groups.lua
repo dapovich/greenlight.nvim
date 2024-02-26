@@ -34,7 +34,7 @@ local defaults = {
     Conceal = { fg = colors.fg },
 
     Delimiter = { fg = colors.fg },
-    Special = { fg = colors.seagreen },
+    Special = { fg = colors.fg },
     SpecialChar = { fg = colors.seagreen },
     SpecialComment = { fg = colors.seagreen },
     Tag = { fg = colors.fg },
