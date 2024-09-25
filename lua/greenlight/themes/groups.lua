@@ -51,7 +51,7 @@ local defaults = {
     CursorColumn = { bg = colors.vulcan },
     CursorLine = { bg = colors.bg },
     CursorLineNr = { fg = colors.greenlight },
-    ErrorMsg = { fg = colors.red },
+    ErrorMsg = { fg = colors.pink },
     FloatTitle = { fg = colors.pink },
     LineNr = { fg = colors.dark_gray },
     MatchParen = { bg = colors.dark_gray, bold = true },
@@ -61,7 +61,8 @@ local defaults = {
     Normal = { fg = colors.fg, bg = config.transparent and colors.none or colors.bg },
     NormalFloat = { link = "Normal" },
     Question = { fg = colors.yellow },
-    Search = { fg = colors.bg, bg = colors.yellow },
+    CurSearch = { bg = colors.palevioletred2, fg = colors.brown4 },
+    Search = { link = CurSearch },
     SignColumn = {},
     StatusLine = { fg = colors.bg, bg = colors.fg },
     StatusLineNC = { fg = colors.light_gray, bg = colors.dark_blue },
@@ -220,7 +221,7 @@ local defaults = {
     PmenuThumb = { fg = colors.dark_green, bg = colors.dark_gray },
 
     -- diagnostics
-    DiagnosticError = { fg = colors.red },
+    DiagnosticError = { fg = colors.pink },
     DiagnosticHint = { fg = colors.light_gray },
     DiagnosticInfo = { fg = colors.white },
     DiagnosticUnderlineError = { sp = colors.red, underline = true },
