@@ -18,13 +18,13 @@ local defaults = {
     Type = { fg = colors.greenlight },
     Typedef = { fg = colors.lightblue },
 
-    Function = { fg = colors.yellow },
+    Function = { fg = colors.white },
     Identifier = { fg = colors.fg },
 
     Keyword = { fg = colors.greenlight },
     Label = { fg = colors.greenlight },
     Operator = { fg = colors.fg },
-    Statement = { fg = colors.yellow },
+    Statement = { fg = colors.white },
 
     Define = { fg = colors.greenlight },
     Include = { fg = colors.greenlight },
