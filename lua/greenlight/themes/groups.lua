@@ -8,7 +8,7 @@ local config = require "greenlight.config"
 local defaults = {
     Boolean = { fg = colors.seagreen },
     Character = { fg = colors.fg },
-    Constant = { fg = colors.greenlight },
+    Constant = { fg = colors.lightblue },
     Float = { fg = colors.seagreen },
     Number = { fg = colors.seagreen },
     String = { fg = colors.cyan },
@@ -16,15 +16,15 @@ local defaults = {
     StorageClass = { fg = colors.greenlight },
     Structure = { fg = colors.greenlight },
     Type = { fg = colors.greenlight },
-    Typedef = { fg = colors.greenlight },
+    Typedef = { fg = colors.lightblue },
 
-    Function = { fg = colors.white },
+    Function = { fg = colors.yellow },
     Identifier = { fg = colors.fg },
 
     Keyword = { fg = colors.greenlight },
     Label = { fg = colors.greenlight },
     Operator = { fg = colors.fg },
-    Statement = { fg = colors.white },
+    Statement = { fg = colors.yellow },
 
     Define = { fg = colors.greenlight },
     Include = { fg = colors.greenlight },
@@ -52,7 +52,7 @@ local defaults = {
     CursorLine = { bg = colors.bg },
     CursorLineNr = { fg = colors.greenlight },
     ErrorMsg = { fg = colors.pink },
-    FloatTitle = { fg = colors.pink },
+    FloatTitle = { fg = colors.seagreen },
     LineNr = { fg = colors.dark_gray },
     MatchParen = { bg = colors.dark_gray, bold = true },
     ModeMsg = { fg = colors.yellow },
