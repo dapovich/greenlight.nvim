@@ -18,7 +18,7 @@ local defaults = {
     Type = { fg = colors.greenlight },
     Typedef = { fg = colors.lightblue },
 
-    Function = { fg = colors.white },
+    Function = { fg = colors.yellow },
     Identifier = { fg = colors.fg },
 
     Keyword = { fg = colors.greenlight },
@@ -40,7 +40,7 @@ local defaults = {
     Tag = { fg = colors.fg },
 
     Comment = { fg = colors.limegreen, italic = config.italics },
-    Todo = { fg = colors.white, bold = true, italic = config.italics },
+    Todo = { fg = colors.yellow, bold = true, italic = config.italics },
 
     Error = { fg = colors.red },
     Ignore = { fg = colors.fg },
@@ -50,7 +50,7 @@ local defaults = {
     Cursor = { fg = colors.greenlight, bg = colors.fg },
     CursorColumn = { bg = colors.vulcan },
     CursorLine = { bg = colors.bg },
-    CursorLineNr = { fg = colors.greenlight },
+    CursorLineNr = { fg = colors.yellow },
     ErrorMsg = { fg = colors.pink },
     FloatTitle = { fg = colors.seagreen },
     LineNr = { fg = colors.dark_gray },
@@ -92,7 +92,7 @@ local defaults = {
     ["@comment"] = { link = "Comment" },
     ["@conditional"] = { link = "Conditional" },
     ["@constant"] = { link = "Constant" },
-    ["@constant.builtin"] = { fg = colors.lightblue },
+    ["@constant.builtin"] = { fg = colors.white },
     ["@constant.macro"] = { link = "Define" },
     ["@constructor"] = { fg = colors.lightblue },
     ["@debug"] = { link = "Debug" },
@@ -154,8 +154,8 @@ local defaults = {
     ["@type.builtin"] = { link = "Type" },
     ["@type.definition"] = { link = "Typedef" },
     ["@type.qualifier"] = { link = "Type" },
-    ["@variable"] = { fg = colors.lightblue },
-    ["@variable.builtin"] = { fg = colors.lightblue },
+    ["@variable"] = { fg = colors.purple },
+    ["@variable.builtin"] = { fg = colors.white },
 
     -- semantic tokens
     ["@lsp.mod.deprecated"] = { fg = colors.light_gray, strikethrough = true },
