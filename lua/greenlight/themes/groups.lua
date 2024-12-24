@@ -21,7 +21,7 @@ local defaults = {
     Function = { fg = colors.yellow },
     Identifier = { fg = colors.fg },
 
-    Keyword = { fg = colors.greenlight },
+    Keyword = { fg = colors.lightblue },
     Label = { fg = colors.greenlight },
     Operator = { fg = colors.fg },
     Statement = { fg = colors.white },
