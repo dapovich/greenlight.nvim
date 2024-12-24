@@ -228,7 +228,7 @@ local defaults = {
     DiagnosticUnderlineHint = { sp = colors.light_gray, underline = true },
     DiagnosticUnderlineInfo = { sp = colors.green, underline = true },
     DiagnosticUnderlineWarn = { sp = colors.yellow, underline = true },
-    DiagnosticWarn = { fg = colors.yellow },
+    DiagnosticWarn = { fg = colors.peanut },
     DiagnosticUnnecessary = { fg = colors.fg:darken(0.6) },
 
     -- lsp document highlight
