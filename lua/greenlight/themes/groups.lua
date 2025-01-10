@@ -94,7 +94,7 @@ local defaults = {
     ["@constant"] = { link = "Constant" },
     ["@constant.builtin"] = { fg = colors.white },
     ["@constant.macro"] = { link = "Define" },
-    ["@constructor"] = { fg = colors.lightblue },
+    ["@constructor"] = { fg = colors.yellow },
     ["@debug"] = { link = "Debug" },
     ["@define"] = { link = "Define" },
     ["@error"] = { link = "Error" },
