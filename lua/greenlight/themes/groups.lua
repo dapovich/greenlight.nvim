@@ -21,7 +21,7 @@ local defaults = {
     Function = { fg = colors.yellow },
     Identifier = { fg = colors.fg },
 
-    Keyword = { fg = colors.lightblue },
+    Keyword = { fg = colors.white },
     Label = { fg = colors.greenlight },
     Operator = { fg = colors.fg },
     Statement = { fg = colors.white },
@@ -50,7 +50,7 @@ local defaults = {
     Cursor = { fg = colors.greenlight, bg = colors.fg },
     CursorColumn = { bg = colors.vulcan },
     CursorLine = { bg = colors.bg },
-    CursorLineNr = { fg = colors.yellow },
+    CursorLineNr = { fg = colors.seagreen },
     ErrorMsg = { fg = colors.pink },
     FloatTitle = { fg = colors.seagreen },
     LineNr = { fg = colors.dark_gray },
@@ -154,8 +154,8 @@ local defaults = {
     ["@type.builtin"] = { link = "Type" },
     ["@type.definition"] = { link = "Typedef" },
     ["@type.qualifier"] = { link = "Type" },
-    ["@variable"] = { fg = colors.purple },
-    ["@variable.builtin"] = { fg = colors.white },
+    ["@variable"] = { fg = colors.fg },
+    ["@variable.builtin"] = { fg = colors.fg },
 
     -- semantic tokens
     ["@lsp.mod.deprecated"] = { fg = colors.light_gray, strikethrough = true },
