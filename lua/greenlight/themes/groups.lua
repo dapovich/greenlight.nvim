@@ -18,10 +18,10 @@ local defaults = {
     Type = { fg = colors.greenlight },
     Typedef = { fg = colors.lightblue },
 
-    Function = { fg = colors.yellow },
+    Function = { fg = colors.greenlight },
     Identifier = { fg = colors.fg },
 
-    Keyword = { fg = colors.white },
+    Keyword = { fg = colors.lightblue },
     Label = { fg = colors.greenlight },
     Operator = { fg = colors.fg },
     Statement = { fg = colors.white },
@@ -155,7 +155,7 @@ local defaults = {
     ["@type.definition"] = { link = "Typedef" },
     ["@type.qualifier"] = { link = "Type" },
     ["@variable"] = { fg = colors.fg },
-    ["@variable.builtin"] = { fg = colors.fg },
+    ["@variable.builtin"] = { fg = colors.white },
 
     -- semantic tokens
     ["@lsp.mod.deprecated"] = { fg = colors.light_gray, strikethrough = true },

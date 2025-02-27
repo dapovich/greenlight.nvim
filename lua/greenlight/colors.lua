@@ -3,8 +3,8 @@ local colors = {}
 
 ---@type colors
 local defaults = {
-    fg = "#d3b58d",
-    bg = "#062329",
+    fg = "#90b080",
+    bg = "#072626",
     bglighten = "#0a3636",
     gray = "#676e7b",
     pink = "#ffc0cb",
@@ -26,7 +26,7 @@ local defaults = {
     dark_cyan = "#2b8db3",
     red = "#f75f5f",
     dark_red = "#d03770",
-    white = "#eeeeee",
+    white = "#fff8dc",
     light_gray = "#9ca3b2",
     dark_gray = "#4b5261",
     vulcan = "#383a3e",
