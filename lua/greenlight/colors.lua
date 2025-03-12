@@ -3,7 +3,7 @@ local colors = {}
 
 ---@type colors
 local defaults = {
-    fg = "#90b080",
+    fg = "#d3b58d",
     bg = "#072626",
     bglighten = "#0a3636",
     gray = "#676e7b",
