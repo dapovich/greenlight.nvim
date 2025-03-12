@@ -18,7 +18,7 @@ local defaults = {
     Type = { fg = colors.greenlight },
     Typedef = { fg = colors.lightblue },
 
-    Function = { fg = colors.greenlight },
+    Function = { fg = colors.white },
     Identifier = { fg = colors.fg },
 
     Keyword = { fg = colors.lightblue },
