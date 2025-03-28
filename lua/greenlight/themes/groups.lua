@@ -40,7 +40,7 @@ local defaults = {
     Tag = { fg = colors.fg },
 
     Comment = { fg = colors.limegreen, italic = config.italics },
-    Todo = { fg = colors.yellow, bold = true, italic = config.italics },
+    Todo = { fg = colors.white, bold = true, italic = config.italics },
 
     Error = { fg = colors.red },
     Ignore = { fg = colors.fg },
@@ -94,7 +94,7 @@ local defaults = {
     ["@constant"] = { link = "Constant" },
     ["@constant.builtin"] = { fg = colors.white },
     ["@constant.macro"] = { link = "Define" },
-    ["@constructor"] = { fg = colors.yellow },
+    ["@constructor"] = { fg = colors.greenlight },
     ["@debug"] = { link = "Debug" },
     ["@define"] = { link = "Define" },
     ["@error"] = { link = "Error" },
